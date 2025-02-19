@@ -26,8 +26,8 @@ This repository contains a patch for installing the Nexmon Channel State Informa
 
    * Run `make` to extract ucode, templateram and flashpatches from the original firmwares.
 9. Navigate to patches/bcm43455c0/7_45_189/ and clone this repository:
-    `git clone https://github.com/seemoo-lab/nexmon_csi.git`
-10. Enter the created subdirectory nexmon_csi and run
+    `git clone https://github.com/grant-lewis/pi-6.6.y-nexmon_csi`
+10. Enter the created subdirectory pi-6.6.y-nexmon_csi and run
     `make install-firmware` to compile our firmware patch and install it on the Raspberry Pi.
 11. Install nexutil: from the nexmon root directory switch to the nexutil folder: `cd utilities/nexutil/`. Compile and install nexutil: `make && make install`.
 12. *Optional*: remove wpa_supplicant for better control over the WiFi interface: `apt-get remove wpasupplicant`
