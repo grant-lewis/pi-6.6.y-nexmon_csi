@@ -6,8 +6,8 @@
 #
 
 ccflags-y += \
-	-I$(NEXMON_ROOT)/patches/bcm43455c0/7_45_189/nexmon_csi/brcmfmac_6.6.y-nexmon	\
-	-I$(NEXMON_ROOT)/patches/bcm43455c0/7_45_189/nexmon_csi/brcmfmac_6.6.y-nexmon/include \
+	-I$(NEXMON_ROOT)/patches/bcm43455c0/7_45_189/pi-6.6.y-nexmon_csi/brcmfmac_6.6.y-nexmon	\
+	-I$(NEXMON_ROOT)/patches/bcm43455c0/7_45_189/pi-6.6.y-nexmon_csi/brcmfmac_6.6.y-nexmon/include \
 	-DDEBUG
 
 obj-$(CONFIG_BRCMFMAC) += brcmfmac.o 
