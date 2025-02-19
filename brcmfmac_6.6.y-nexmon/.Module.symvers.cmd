@@ -1,0 +1,1 @@
+savedcmd_/home/pi/nexmon/patches/bcm43455c0/7_45_189/nexmon_csi/brcmfmac_6.6.y-nexmon/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/pi/nexmon/patches/bcm43455c0/7_45_189/nexmon_csi/brcmfmac_6.6.y-nexmon/Module.symvers -T /home/pi/nexmon/patches/bcm43455c0/7_45_189/nexmon_csi/brcmfmac_6.6.y-nexmon/modules.order -i Module.symvers -e 

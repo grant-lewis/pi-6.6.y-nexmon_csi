@@ -1,0 +1,1 @@
+savedcmd_/home/pi/nexmon/patches/bcm43455c0/7_45_189/nexmon_csi/brcmfmac_6.6.y-nexmon/modules.order := {   echo /home/pi/nexmon/patches/bcm43455c0/7_45_189/nexmon_csi/brcmfmac_6.6.y-nexmon/brcmfmac.o; :; } > /home/pi/nexmon/patches/bcm43455c0/7_45_189/nexmon_csi/brcmfmac_6.6.y-nexmon/modules.order
