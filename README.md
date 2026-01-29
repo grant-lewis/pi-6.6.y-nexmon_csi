@@ -23,8 +23,8 @@ ln -s /usr/lib/arm-linux-gnueabihf/libmpfr.so.6.2.0 /usr/lib/arm-linux-gnueabihf
 7. Go into the root directory of the repository: `cd nexmon`
 8. Setup the build environment: `source setup_env.sh`, then `make`.
 9. Navigate to the device directory: `cd patches/bcm43455c0/7_45_189/`.
-10. Clone this repository: `git clone https://github.com/grant-lewis/pi-6.6.y-nexmon_csi`. If necessary, grant execution permissions using `chmod +x -R $NEXMON_ROOT/patches/bcm43455c0/7_45_189/pi-6.6.y-nexmon_csi/`.
-11. Then, enter the subdirectory and run `make install-firmware` to compile and install the firmware patch on the Raspberry Pi. 
+10. Clone this repo: `git clone https://github.com/grant-lewis/pi-6.6.y-nexmon_csi`. If necessary, grant execution permissions using `chmod +x -R $NEXMON_ROOT/patches/bcm43455c0/7_45_189/pi-6.6.y-nexmon_csi/`.
+11. Then, enter the repo directory `cd pi-6.6.y-nexmon_csi` and run `make install-firmware` to compile and install the firmware patch on the Raspberry Pi. 
 12. From the nexmon root directory, switch to the nexutil folder: `cd utilities/nexutil/`.
 13. Compile and install nexutil: `make && make install`.
 14. *Optional*: remove wpa_supplicant for better control over the WiFi interface: `apt-get remove wpasupplicant`
